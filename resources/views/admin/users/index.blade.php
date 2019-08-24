@@ -11,6 +11,7 @@
         <thead>
         <tr>
             <th>Id</th>
+            <th>Photo</th>
             <th>Name</th>
             <th>Email</th>
             <th>Password</th>
@@ -28,7 +29,8 @@
 
         <tr>
             <td>{{$user->id}}</td>
-            <td>{{$user->name}}</td>
+            <td><img height="50" src="{{$user->photo ? $user->photo->file : "https://via.placeholder.com/150"}}" alt=""></td>
+            <td><a href="{{route('admin.users.edit',$user->id)}}">{{$user->name}}</a></td>
             <td>{{$user->email}}</td>
             <td>{{$user->password}}</td>
             <td>{{$user->role->name}}</td>

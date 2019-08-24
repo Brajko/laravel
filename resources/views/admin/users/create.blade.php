@@ -43,9 +43,8 @@
             <label for="status">Status</label>
             <select name="is_active" class="form-control">
                 <option value selected="selected">Choose Status</option>
-            @foreach($statuses as $id => $status)
-                <option value="{{$id}}">{{$status}}</option>
-            @endforeach
+                <option value="0">Not Active</option>
+                <option value="1">Active</option>
             </select>
         </div>
 
