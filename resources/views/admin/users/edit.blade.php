@@ -67,10 +67,20 @@
                 </div>
         
                 <div class="form-group">
-                    <input type="submit" name="create" class="btn btn-primary">
+                    <input type="submit" name="create" value="Update User" class="btn btn-primary col-sm-6">
                 </div>
         
             </form>
+            <form method="post" action="{{route('admin.users.destroy',['id'=>$user->id])}}">
+                <input type="hidden" name="_method" value="DELETE">
+                {{csrf_field()}}
+
+                <div class="form-group ">
+                    <input type="submit" name="delete" value="Delete User" class="btn btn-danger col-sm-6">
+                </div>
+
+            </form>
+
         </div>
     </div>
 

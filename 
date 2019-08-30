@@ -1,0 +1,23 @@
+[33mcommit 1f1a112dac5e2e32e36a23b8dfcd953d9c893a51[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Stefan <sbrajkovic91@gmail.com>
+Date:   Sat Aug 24 12:38:28 2019 +0200
+
+    users section workint 100 precent - except security
+
+[33mcommit 1d54c64cf5fbc2fd4857c3edf1d9f1bba1ff065a[m
+Author: Stefan <sbrajkovic91@gmail.com>
+Date:   Sun Aug 11 14:30:11 2019 +0200
+
+    users with photos working
+
+[33mcommit e2c9fbdd62a3f3d47c4512cf4912220880ddaadd[m
+Author: Stefan <sbrajkovic91@gmail.com>
+Date:   Sat Aug 3 14:16:37 2019 +0200
+
+    made admin masterpage
+
+[33mcommit ba91f8f514dc03efbd7855b0cd2eae872bebece5[m
+Author: Stefan <sbrajkovic91@gmail.com>
+Date:   Thu Aug 1 15:41:00 2019 +0200
+
+    created admin views
