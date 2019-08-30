@@ -19,6 +19,9 @@
                 <label for="category_id">Category</label>
                 <select name="category_id">
                     <option value="">Choese Category</option>
+                    @foreach($category as $id => $cat)
+                        <option value="{{$id}}">{{$cat}}</option>
+                    @endforeach
                 </select>
             </div>
             <div class="form-group">
